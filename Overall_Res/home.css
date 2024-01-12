@@ -1,0 +1,40 @@
+body{
+    font-family: 'GoogleSans','MiSans', Arial, sans-serif;  
+}
+@font-face {
+    font-family: 'GoogleSans';
+    src: url('/Overall_Res/GoogleSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: url('/Overall_Res/MiSans.ttf') format('truetype');
+}
+
+.blurred_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/Overall_Res/background.jpg") center center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px);
+    filter: brightness(0.6);
+    z-index: -1;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffff;
+    text-align: left;
+    top: 15%;
+    margin-left: 10%;
+    }
+
+p{
+    font-size: large;
+    color:#ffff;
+    margin-left:10%
+}
